@@ -18,9 +18,10 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "https://mandrillapp.com/api/1.0/messages/send.json",
                 type: "POST",
                 data: {
+                    ‘key’: ‘gapuPWYuZAaq2zo1zv_fxw’,
                     name: name,
                     phone: phone,
                     email: email,
