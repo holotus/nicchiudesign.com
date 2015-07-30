@@ -31,7 +31,7 @@ $(function() {
                         "from_name": name,
                         "to": [
                             {
-                                "email": "nicchiu@gmail.com",
+                                "email": "nicchiudesign@gmail.com",
                                 "name": "Nic Chiu",
                                 "type": "to"
                             }
