@@ -13,7 +13,23 @@ body {
 /*Text colour*/
 .text-muted {
     color: #fff;   
+    padding-bottom: 40px;
+     font-size: 16px;
+    line-height: 24px;
 }
+
+/*navbar expand*/
+@media(min-width:768px) {
+    .text-muted {
+    color: #fff;   
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 40px;
+        
+}
+}
+
+
 
 .text-gray {
     color:#222;
@@ -423,7 +439,7 @@ section {
 section h2.section-heading {
     margin-top: 50px;
     margin-bottom: 0px;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 0.1em;
     color: #fff;
 
@@ -467,7 +483,18 @@ section {
     letter-spacing: 0.15em;
     font-family: "Open Sans", "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
+    font-size: 26px;
  
+}
+
+@media (min-width:768px) {
+    
+    margin: 15px 0;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.15em;
+    font-family: "Open Sans", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
 }
 
 #portfolio .portfolio-item {
@@ -568,12 +595,7 @@ aside.clients img {
 /*BIGGER SCREEN*/
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
-    background-position: center;
-    background-repeat: no-repeat; 
-    padding-bottom: 100px;
-    padding-top: 0px;
+   
 }
 
 section#contact .section-heading {
@@ -841,6 +863,24 @@ body {
     text-align: center;
 }
 
+.bkgdimage2 {
+    background-image: url(../img/map-image2.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color:#fff;
+    text-align: center;
+}
+
+.spacer {
+  height: 40px;
+    
+}
 
 
 
